@@ -1,0 +1,50 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# External C/C++ archives and unpacked source
+pybullet-3.2.7/
+pybullet-3.2.7.tar.gz
+
+# Submodule / upstream clone
+gym-pybullet-drones/
+
+# ROS 2 colcon build artifacts
+ros2_swarm_ws/build/
+ros2_swarm_ws/install/
+ros2_swarm_ws/log/
+
+# macOS / OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE / Editor
+.vscode/
+.idea/
